@@ -147,25 +147,7 @@ const SinglePage = () => {
         </div>
       </section>
 
-      <section className="py-10">
-        <div className="container mx-auto px-5 max-w-[1200px] w-full">
-          {allCategories.map((category) => (
-            <div key={category}>
-              <h1 className="text-[48px] max-[900px]:text-[32px] max-[600px]:text-[20px] font-bold uppercase text-center pt-10">
-                {category}
-              </h1>
-              <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-10 mt-10">
-                {products
-                  .filter((product) => product.category === category)
-                  .slice(0, 4)
-                  .map((product) => (
-                    <ProductCard key={product.id} {...product} />
-                  ))}
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
+     
 
       <section className="relative py-[60px]">
         <div className="container mx-auto max-w-[1200px] w-full px-4">

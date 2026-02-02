@@ -183,76 +183,7 @@ const HomePage = () => {
       </section>
 
       <section>
-        {/* <div className="container mx-auto  pb-[60px] max-w-[1200px] w-full">
-          <h1 className="md:text-[48px] font-bold text-center">
-            OUR HAPPY CUSTOMERS
-          </h1>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 max-[600px]:ml-5 mt-10">
-            <div className="w-[450px] h-[230px] border-[2px] border-[#0000001A] rounded-[20px] ">
-              <span className="flex items-center gap-2 text-yellow-500 mt-8 ml-5">
-                <IoIosStar />
-                <IoIosStar />
-                <IoIosStar />
-                <IoIosStar />
-                <IoIosStar />
-              </span>
-              <h1 className="flex items-center gap-2  mt-3 ml-5">
-                Sarah M.{" "}
-                <span className=" rounded-full flex items-center justify-center text-white  w-5 h-5 bg-[green]">
-                  <TiTick />
-                </span>
-              </h1>
-              <p className="text-[#00000099] mt-3 ml-5">
-                "I'm blown away by the quality and style of the clothes I
-                received from Shop.co. From casual <br /> wear to elegant
-                dresses, every piece I've bought <br /> has exceeded my
-                expectations.”
-              </p>
-            </div>
-            <div className="w-[450px] h-[230px] border-[2px] border-[#0000001A] rounded-[20px] ">
-              <span className="flex items-center gap-2 text-yellow-500 mt-8 ml-5">
-                <IoIosStar />
-                <IoIosStar />
-                <IoIosStar />
-                <IoIosStar />
-                <IoIosStar />
-              </span>
-              <h1 className="flex items-center gap-2  mt-3 ml-5">
-                Alex K.{" "}
-                <span className=" rounded-full flex items-center justify-center text-white  w-5 h-5 bg-[green]">
-                  <TiTick />
-                </span>
-              </h1>
-              <p className="text-[#00000099] mt-3 ml-5">
-                "Finding clothes that align with my personal style used <br />{" "}
-                to be a challenge until I discovered Shop.co. The range of
-                options they offer is truly remarkable, catering to <br /> a
-                variety of tastes and occasions.”
-              </p>
-            </div>
-            <div className="w-[450px] h-[230px] border-[2px] border-[#0000001A] rounded-[20px] ">
-              <span className="flex items-center gap-2 text-yellow-500 mt-8 ml-5">
-                <IoIosStar />
-                <IoIosStar />
-                <IoIosStar />
-                <IoIosStar />
-                <IoIosStar />
-              </span>
-              <h1 className="flex items-center gap-2  mt-3 ml-5">
-                James L.{" "}
-                <span className=" rounded-full flex items-center justify-center text-white  w-5 h-5 bg-[green]">
-                  <TiTick />
-                </span>
-              </h1>
-              <p className="text-[#00000099] mt-3 ml-5">
-                "As someone who's always on the lookout forunique <br /> fashion
-                pieces, I'm thrilled to have stumbled upon <br /> Shop.co. The
-                selection of clothes is not only diverse but <br /> also
-                on-point with the latest trends.”
-              </p>
-            </div>
-          </div>
-        </div> */}
+       
         <TestSwiper />
       </section>
 
