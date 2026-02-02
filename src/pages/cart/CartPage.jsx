@@ -67,7 +67,7 @@ const CartPage = () => {
             </div>
 
             <div className="max-[600px]:px-5">
-              <div className="border-[2px] border-[#0000001A] rounded-2xl px-5 py-5 max-[600px]:px-7 w-full sm:h-[550px]">
+              <div className="border-[2px] border-[#0000001A] rounded-2xl px-5 py-5 max-[600px]:px-7 w-full ">
                 <h1 className="sm:text-[24px] max-[600px]:text-[16px]  text-center font-bold mb-4">
                   Order Summary
                 </h1>
@@ -103,8 +103,8 @@ const CartPage = () => {
                 </div>
                 <button
                   className="flex items-center justify-center gap-2 bg-black text-white 
-               sm:text-[20px] font-bold cursor-pointer max-w-[700px] w-full h-[40px] 
-               rounded-full mt-6"
+               sm:text-[20px] font-bold cursor-pointer max-w-[700px] w-full h-[60px] 
+               rounded-[40px] mt-10"
                 >
                   Go To Checkout <GrFormNextLink />
                 </button>
