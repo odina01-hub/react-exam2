@@ -14,16 +14,15 @@ const HomePage = () => {
   return (
     <>
       <section className="relative bg-[#F2F0F1]">
-        <div className="container mx-auto max-w-[1200px] pt-[90px] px-5 flex items-center justify-between max-[900px]:flex-col max-[900px]:pt-20 pb-20 gap-10">
+        <div className="container mx-auto max-w-[1200px] px-5 flex items-center justify-between max-[900px]:flex-col gap-10 pt-[90px] max-[900px]:pt-20 pb-20 ">
           <div className="flex-1">
             <h1 className="text-[48px] max-[900px]:text-[36px] max-[600px]:text-[28px] font-bold leading-[60px] max-[900px]:leading-[44px] max-[600px]:leading-[36px]">
-              FIND CLOTHES <br /> THAT MATCHES <br /> YOUR STYLE
-            </h1>
+              FIND CLOTHES <br /> THAT MATCHES <br /> YOUR STYLE </h1>
             <p className="text-[#00000099] pt-4 max-[600px]:text-sm max-[900px]:pt-2">
               Browse through our diverse range of meticulously crafted garments,
-              designed <br className="max-[600px]:hidden" /> to bring out your
-              individuality and cater to your sense of style.
-            </p>
+              designed <br 
+              className="max-[600px]:hidden" /> to bring out your
+              individuality and cater to your sense of style.</p>
             <button className="w-[210px] h-[52px] max-[600px]:w-[180px] max-[600px]:h-[44px] rounded-[62px] bg-black text-white mt-5">
               Shop Now
             </button>
